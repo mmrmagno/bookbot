@@ -19,7 +19,7 @@ def main():
     char_count = dict_to_dict_list(get_num_chars(get_book_text(book_path)))
     
     print(f"""============ BOOKBOT ============
-Analyzing book found at books/frankenstein.txt...
+Analyzing book found at {book_path} 
 ----------- Word Count ----------
 {word_count}
 --------- Character Count -------""")
